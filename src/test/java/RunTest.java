@@ -21,6 +21,7 @@ public class RunTest {
         $(By.xpath("//button[contains(text(), 'Добавить в корзину за ')]")).click();
         $(By.xpath("//button[contains(text(), 'Корзина')]")).click();
         $(By.xpath("//h3[text()='Чизбургер-пицца']")).shouldBe(Condition.visible);
+        //для проверки не ложного прохождения
 //        $(By.xpath("//button[contains(text(), 'Оформить заказ')]")).scrollIntoView("{block: 'center'}");
 //        $(By.xpath("//button[contains(text(), 'Оформить заказ')]")).click();
 
